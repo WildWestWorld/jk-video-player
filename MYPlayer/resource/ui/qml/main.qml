@@ -5,52 +5,52 @@ import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.1
 import com.imooc.myplayer 1.0
 
-Window{
-      visible: true
-      width:640
-      height: 480
-      title:qsTr("Hello World")
-      Button{
-          id:demoNum
-          x: 249
-          y: 146
-          text: qsTr("Click Me")
-          onClicked: {
-            MainApp.testFunc()
-          }
-      }
-}
+//Window{
+//      visible: true
+//      width:640
+//      height: 480
+//      title:qsTr("Hello World")
+//      Button{
+//          id:demoNum
+//          x: 249
+//          y: 146
+//          text: qsTr("Click Me")
+//          onClicked: {
+//            MainApp.testFunc()
+//          }
+//      }
+//}
 
 
 
-//Window {
-//    id: root
-//    visible: true
-//    width: 800
-//    height: 600
-//    title: qsTr("MuYing Player")
-//    property bool fullscreen: false
-//    property string language:
-//    {
-//        root.title = qsTr("MuYing Player")
-//        chooseSkin.title = qsTr("Choose the picture.")
-//        chooseSkin.nameFilters = [qsTr("Image files(*.png *.jpg *.bmp)"),qsTr("All files(*)")]
-//    }
-//    property int controlAreaButtonWidth: 48
-//    property int controlAreaButtonHeight: 48
-//    property color controlAreaButtonPressedColor: "#265F99"
-//    property color controlAreaButtonUnpressedColor: "#00000000"
+Window {
+    id: root
+    visible: true
+    width: 800
+    height: 600
+    title: qsTr("MuYing Player")
+    property bool fullscreen: false
+    property string language:
+    {
+        root.title = qsTr("MuYing Player")
+        chooseSkin.title = qsTr("Choose the picture.")
+        chooseSkin.nameFilters = [qsTr("Image files(*.png *.jpg *.bmp)"),qsTr("All files(*)")]
+    }
+    property int controlAreaButtonWidth: 48
+    property int controlAreaButtonHeight: 48
+    property color controlAreaButtonPressedColor: "#265F99"
+    property color controlAreaButtonUnpressedColor: "#00000000"
 
-//    //
-//    Image{
-//        id:backGround
-//        x:0
-//        y:7
-//        width: parent.width
-//        height:parent.height
-//        source:myplay.backGround?"file:///"+myplay.backGround:""
-//        smooth:true
-//    }
+    //
+    Image{
+        id:backGround
+        x:0
+        y:7
+        width: parent.width
+        height:parent.height
+        source:myplay.backGround?"file:///"+myplay.backGround:""
+        smooth:true
+    }
 
 //    //
 //     Button{
@@ -96,8 +96,8 @@ Window{
 //     }
 
 
-//    MYPlay{
-//        id:myplay
-//    }
+    MYPlay{
+        id:myplay
+    }
 
-//}
+}
