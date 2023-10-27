@@ -1,0 +1,8 @@
+﻿  Generate moc_predefs.h
+  RCC resource/MYPlayer.qrc
+  系统找不到指定的路径。
+  MOC MainApp.h
+  系统找不到指定的路径。
+  MOC MyPlay.h, MOC MyPlay.h
+  系统找不到指定的路径。
+D:\vsCommunity\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): error MSB8066: “MainApp.h;MyPlay.h;tmp\debug\moc_predefs.h.cbt;resource\MYPlayer.qrc”的自定义生成已退出，代码为 3。
